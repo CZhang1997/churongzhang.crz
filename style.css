@@ -1,0 +1,33 @@
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #444444;
+	background-color: #DDDDDD;
+	margin-top: 30px;
+	margin-right: 90px;
+	margin-left: 90px;
+}
+h1 {
+	font-variant: small-caps;
+	padding: 10px;
+	border: 1px dotted #666666;
+	background-color: #FFFFFF;
+}
+h2 {
+	padding: 10px;
+	border: 1px dashed #333333;
+	background-color: #FFFFFF;
+}
+a:link {
+	color: #333333;
+}
+a:visited {
+	color: #999999;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #3399FF;
+	text-decoration: underline;
+}
