@@ -28,32 +28,27 @@
 <h2> About me</h2>
 
 <h3>Background</h3>
-<p>I was born in GuangZhou, China in 1997 March 29.</p>
+<p>I was born in Guangzhou in March 1997. I moved to the Dallas area around 2010. I started programming in java when I was in Plano Senior High School. After high school, I went to Collin College to continues on my education. After two years of hard work, I transferred to UT Dallas and Major in Computer Science. I am lucky because computer science is what I like. </p>
 
 
 <h3>My Hobbies</h3>
 <ul>
-<li>I love fishing</li>
-<li>play computer game</li>
-<li>study for each class</li>
+  <p id="hobbies"></p>
+  <script>
+  var hobbies = ["Fishing", "Watch anime", "Study CS"];
+  var text = "";
+  var i;
+  for (i = 0; i < hobbies.length; i++) {
+    text += "<li>" + hobbies[i] + "</li>";
+  }
+  document.getElementById("hobbies").innerHTML = text;
+  </script>
 </ul>
 
-<h3>My Favorite Web sites</h3>
+<h3>template</h3>
 <ul>
-
 <li>
-<a href="https://translate.google.com/"> Google Translater</a>
-</li>
-
-<li>
-<a href="http://dictionary.reference.com/">Dictionary</a>
 </li>
 </ul>
-
-
-
-<!--content for my proflie page will go here-->
-
-
 </body>
 </html>
