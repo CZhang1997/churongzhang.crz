@@ -1,6 +1,6 @@
 body {
 	font-family: "Trebuchet MS", sans-serif;
-	color: #444444;
+	color: #ff9966;
 	background-color: #DDDDDD;
 	margin-top: 30px;
 	margin-right: 90px;
@@ -11,9 +11,10 @@ body {
 	border: solid black;
 
 	background-image: url("img/img1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .bg {
   /* The image used */
@@ -26,12 +27,11 @@ h1 {
 	font-variant: small-caps;
 	padding: 10px;
 	border: 1px dotted #666666;
-	background-color: #FFFFFF;
+	color: #ffcc99;
 }
 h2 {
 	padding: 10px;
-	border: 1px dashed #333333;
-	background-color: #FFFFFF;
+	color: #ffcc66;
 }
 img{
 	width: 100%;
@@ -41,13 +41,13 @@ h3 {
 	padding: 5px;
 }
 a:link {
-	color: #333333;
+	color: #ffffff;
 }
 a:visited {
-	color: #666666;
+	color: #e0e0d1;
 }
 a:hover {
-	color: #000000;
+	color: #99ff99;
 	text-decoration: none;
 }
 a:active {
@@ -55,13 +55,13 @@ a:active {
 	text-decoration: underline;
 }
 
-
 #navbar {
 	position: fixed;
     z-index: 999;
 	background: #0F0;
 	width: 70%;
 	font-size: 14px;
+	
 }
 #navbar ul {
 	margin: 0px;
